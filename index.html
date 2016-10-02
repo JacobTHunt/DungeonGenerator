@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>Dungeon Generator</title>
+  <meta name="description" content="DND5E Dungeon Generator - Using tables from the DMG">
+  <meta name="author" content="Jacob Hunt">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 
@@ -15,7 +15,20 @@
   <![endif]-->
 </head>
 
-<body>
+<body>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="js/dungeonLocation.js"></script>
+  <script src="js/dungeonCreator.js"></script>
+  <script src="js/dungeonPurpose.js"></script>
+  <script src="js/dungeonHistory.js"></script>
+  <script src="js/randomGenerator.js"></script>
+  <div id="raceDiv" class="raceDiv"></div>
+  <div id="dungeonDescriptionDiv"></div>
+  <input type="image" src='src/img/buttonNormal.png' name="newDungeonButton" id="saveForm" onclick='createNewDungeon()' value="Generate New Dungeon"/>
+  <button id="updateDungeonCreatorButton" onclick='updateDungeonCreator()'>Generate New Creator</button>
+  <button id="updateDungeonLocationButton" onclick='updateDungeonLocation()'>Generate New Location</button>
+  <button id="updateDungeonPurposeButton" onclick='updateDungeonPurpose()'>Generate New Purpose</button>
+  <button id="updateDungeonHistoryButton" onclick='updateDungeonHistory()'>Generate New History</button>
 </body>
 </html>

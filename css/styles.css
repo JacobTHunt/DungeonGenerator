@@ -37,6 +37,10 @@
 html { 
 	background-color:black; 
 }
+
+canvas {
+	background-color:white;
+}
  
  button {
 	 color:gray;

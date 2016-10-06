@@ -23,12 +23,19 @@
   <script src="js/dungeonPurpose.js"></script>
   <script src="js/dungeonHistory.js"></script>
   <script src="js/randomGenerator.js"></script>
-  <div id="raceDiv" class="raceDiv"></div>
-  <div id="dungeonDescriptionDiv"></div>
-  <input type="image" src='src/img/buttonNormal.png' name="newDungeonButton" id="saveForm" onclick='createNewDungeon()' value="Generate New Dungeon"/>
-  <button id="updateDungeonCreatorButton" onclick='updateDungeonCreator()'>Generate New Creator</button>
-  <button id="updateDungeonLocationButton" onclick='updateDungeonLocation()'>Generate New Location</button>
-  <button id="updateDungeonPurposeButton" onclick='updateDungeonPurpose()'>Generate New Purpose</button>
-  <button id="updateDungeonHistoryButton" onclick='updateDungeonHistory()'>Generate New History</button>
+  <div class="wrapper">
+	  <div id="raceDiv" class="raceDiv"></div>
+	  <div id="dungeonDescriptionDiv" class="dungeonDescriptionDiv"></div>
+  
+  <div class="buttonRow1Div">
+	  <button id="newDungeonButton" class="row1" onclick='createNewDungeon()'>Generate New Dungeon </button>
+  </div>
+	  <div class="buttonRow2Div">
+		  <button id="updateDungeonCreatorButton" class="row2" onclick='updateDungeonCreator()'>Generate New Creator</button>
+		  <button id="updateDungeonLocationButton" class="row2" onclick='updateDungeonLocation()'>Generate New Location</button>
+		  <button id="updateDungeonPurposeButton" class="row2" onclick='updateDungeonPurpose()'>Generate New Purpose</button>
+		  <button id="updateDungeonHistoryButton" class="row2" onclick='updateDungeonHistory()'>Generate New History</button>
+	  </div>
+  </div>
 </body>
 </html>

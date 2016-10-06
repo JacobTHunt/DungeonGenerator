@@ -5,6 +5,10 @@ var getRandomIntInclusive = function(min, max) {
 }
 
 $(document).ready(function () {
-	$('#raceDive').css("background-image", "url(../src/img/dwarf-race.png)"); 
+	$('.row2').hide(); 
 });
+
+var showSecondRow = function() {
+	$('.row2').show(); 
+}
 

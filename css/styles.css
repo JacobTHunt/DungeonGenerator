@@ -1,31 +1,46 @@
-.raceDiv {
-	border-style:double;
-	border-color:white;
-	width:60%;
-	height:1500px;
+.wrapper {
+	text-align:center;
+}
+ 
+.dungeonDescriptionDiv {
+	background-color:white;
+	color:black;
+	float:middle;
+	width:30%;
+	display:inline-block;
  }
  
-.raceDescriptionDiv {
-  background-color:gray;
-  border-style:double;
-  border-color:white;
-  width:400px;
-  height:100px;
+ .buttonRow1Div {
+	width:30%;
+	margin:auto;
+ }
+ 
+ .row1 {
+	 width:100%;
+	 display:block;
+ }
+ 
+.buttonRow2Div {
+	width:30%;
+	height:100px;
+	margin: 0px auto
+ }
+ 
+.row2 {
+	width:25%;
+	height: auto;
+	float:left;
  }
  
  
  
 html { 
-        background-color:black; 
+	background-color:black; 
 }
  
  button {
-	 background-image:url('../src/img/buttonNormal.png'); 
-	 background-size: 100% 100%;	 
-	 width:15%;
-	 height:200px;
+	 color:gray;
  }
  
  button:hover {
-	 background-image:url('../src/img/buttonHighLight.png');
  }

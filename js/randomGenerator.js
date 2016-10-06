@@ -43,6 +43,7 @@ var createNewDungeon = function() {
 	createDungeonHistory();
 	
 	updateDungeonDescriptionString();
+	showSecondRow();
 }
 
 var updateDungeonCreator = function() {
